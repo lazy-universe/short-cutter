@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules
+frontend/node_modules
+
+# Build outputs
+frontend/dist
+frontend/build
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker files (optional, if you want to exclude)
+.dockerignore
+Dockerfile
+
+# Git files
+.git
+.gitignore
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -28,24 +28,26 @@ Supports real-time message streaming using **Server-Sent Events (SSE)** and can 
 
 ## 📂 Project Structure
 
-short-cutter/
-│
-├── backend/ # Flask backend
-│ ├── app/
-│ │ ├── routes/ # API and SSE routes
-│ │ ├── services/ # Groq, YouTube, etc.
-│ │ └── init.py # App factory
-│ └── main.py # Entry point
-│
-├── frontend/ # React (Vite) frontend
-│ ├── src/
-│ └── dist/ # Production build (copied into container)
-│
-├── .env # Contains GROQ_API_KEY 
-├── Dockerfile # Docker setup for both frontend & backend
-├── .dockerignore
-└── README.md
-
+   ```plaintext
+   short-cutter/
+   │
+   ├── backend/ # Flask backend
+   │ ├── app/
+   │ │ ├── routes/ # API and SSE routes
+   │ │ ├── services/ # Groq, YouTube, etc.
+   │ │ └── init.py # App factory
+   │ └── main.py # Entry point
+   │
+   ├── frontend/ # React (Vite) frontend
+   │ ├── src/
+   │ └── dist/ # Production build (copied into container)
+   │
+   ├── .env # Contains GROQ_API_KEY 
+   ├── Dockerfile # Docker setup for both frontend & backend
+   ├── .dockerignore
+   └── README.md
+   ```
+   
 ---
 
 ## ⚙️ Setup Instructions
